@@ -29,6 +29,7 @@ import com.atguigu.gmall.sms.service.CategoryBoundsService;
 @Api(tags = "商品分类积分设置 管理")
 @RestController
 @RequestMapping("sms/categorybounds")
+
 public class CategoryBoundsController {
     @Autowired
     private CategoryBoundsService categoryBoundsService;
