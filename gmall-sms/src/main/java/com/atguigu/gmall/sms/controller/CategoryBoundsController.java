@@ -30,7 +30,6 @@ import com.atguigu.gmall.sms.service.CategoryBoundsService;
 @RestController
 @RequestMapping("sms/categorybounds")
 public class CategoryBoundsController {
-
     @Autowired
     private CategoryBoundsService categoryBoundsService;
 
